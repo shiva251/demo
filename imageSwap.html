@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ImageSwap</title>
+    <script>
+            function swap()
+            {
+              var img11 = document.getElementById('img1');
+              var img12 = document.getElementById('img2');
+              var img11id = img11.src;
+              var img12id = img12.src;
+              img11.src=img12id;
+              img12.src=img11id;
+            }
+            </script>
+</head>
+
+<body>
+    <img src="download.jpg" alt="image" id="img1">
+
+    <button onclick="swap()">swap</button>
+    <img src="download1.jpg" alt="images" id="img2">
+    
+</body>
+</html>
