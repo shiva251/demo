@@ -1,0 +1,50 @@
+.selectdropdown {
+    border: 1px solid black;
+    height: auto;
+    width: 100%;
+
+ }
+ .flexContainer {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+     padding: 10px;
+ }
+ .flexContainer > div {
+    width: 11%;
+    margin: 10px 0 0 5px;
+    height: 20px;
+  }
+  .box > select {
+      width: 100%;
+  }
+  .box > input {
+    width: 100%;
+}
+  #zipcode {
+      margin-left: 34%;
+      margin-top: 30px;
+      padding-left: 8px;
+  }
+#zipcode1 {
+    margin-top: 30px;
+}
+#zipcode2 {
+    margin-top: 30px;
+    margin-left: 1%;
+}
+  .btn {
+    width: 100px;
+    padding: 4px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.buttons {
+    /* left: 50%;
+    position: absolute;
+    transform: translate(-50%); */
+    width: 400px;
+    margin:20px auto;
+
+}
